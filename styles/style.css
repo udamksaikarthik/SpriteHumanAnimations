@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E84A5F;
+}
+#canvas{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.state_container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2em;
+}
